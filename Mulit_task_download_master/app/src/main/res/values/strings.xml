@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mulit_task_download_master</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_down_show_detial">DownShowDetialActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

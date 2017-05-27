@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#D1D1D1"
+                android:layout_marginLeft="27dp"
+                />
+
+            <ImageView
+                android:id="@+id/iv_node_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@mipmap/ic_node_learn"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <TextView
+
+                android:id="@+id/tv_node_name"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="宝塔镇河妖"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/iv_node_icon"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="时长:100分钟"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:maxLines="1"
+                android:visibility="invisible"
+                android:layout_toRightOf="@+id/tv_node_name"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                />
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                >
+                <ImageView
+                    android:id="@+id/iv_node_play"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@mipmap/ic_all_chose"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_node_no_excer"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="暂无练习"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+</LinearLayout>
